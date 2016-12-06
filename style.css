@@ -14,10 +14,10 @@ h1 {
   font-family: Avenir;
   color:navy;
   font-size: 48px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 ul {
-  font-family: Avenir;
+  font-family: Georgia;
   color:navy;
   list-style: none;
   padding: 0;
