@@ -1,0 +1,45 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to top right, #60B0FB, #87C0EB);
+  text-align: center;
+  background-size: cover;
+}
+h1 {
+  margin: 120px 0px;
+  margin-bottom: 40px;
+  font-family: Avenir;
+  color:navy;
+  font-size: 48px;
+  font-weight: lighter;
+}
+ul {
+  font-family: Avenir;
+  color:navy;
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+p {
+  font-family: Avenir;
+  color:navy;
+}
+a {
+  color: navy;
+  transition-duration: .2s;
+}
+a:hover {
+  color: steelblue;
+  transition-duration: .2s;
+}
+.em {
+  font-size: 32px;
+  margin: 40px;
+}
