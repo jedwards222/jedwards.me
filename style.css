@@ -34,12 +34,17 @@ p {
 a {
   color: navy;
   transition-duration: .2s;
+  font-size: 48px;
+  text-decoration: none;
 }
 a:hover {
   color: steelblue;
   transition-duration: .2s;
 }
-.em {
-  font-size: 32px;
-  margin: 40px;
+.fa {
+  font-size: 48px;
+  padding: 20px;
+  font-style: normal;
+  background-color: white;
+  border-radius: 5px;
 }
