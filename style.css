@@ -42,9 +42,9 @@ a:hover {
   transition-duration: .2s;
 }
 .fa {
-  font-size: 48px;
-  padding: 20px;
-  font-style: normal;
+  width: 90px;
+  padding: 20px 0;
   background-color: white;
   border-radius: 5px;
+  margin: 3px;
 }
