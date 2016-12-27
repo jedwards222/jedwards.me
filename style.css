@@ -4,15 +4,18 @@ html {
 }
 
 body {
-  background: #80B8E0;
   text-align: center;
+
+  background: #80B8E0;
   background-size: cover;
 }
 h1 {
   margin: 120px 0px;
   margin-bottom: 10px;
-  font-family: Avenir;
+
   color:navy;
+
+  font-family: Avenir;
   font-size: 56px;
   font-weight: 500;
 }
@@ -23,54 +26,68 @@ h1 {
   content: url("images/white_glasses.png");
 }
 ul {
-  font-family: Georgia;
-  color:navy;
-  list-style: none;
   padding: 0;
+
+  list-style: none;
+
+  color:navy;
+
+  font-family: Georgia;
 }
 li {
   display: inline;
+
   margin: 0;
   padding: 5px;
 }
 p {
-  font-family: Avenir;
   color:navy;
+
+  font-family: Avenir;
 }
 a, a:visited {
-  color: navy;
   transition-duration: .2s;
-  font-size: 48px;
   text-decoration: none;
+
+  color: navy;
+
+  font-size: 48px;
 }
 a:hover {
-  color: #80B8E0;
   transition-duration: .2s;
+
+  color: #80B8E0;
 }
 .fa {
   width: 90px;
-  padding: 20px 0;
-  background-color: white;
-  border-radius: 5px;
   margin: 3px;
+  padding: 20px 0;
+
+  border-radius: 5px;
+  background-color: white;
 }
 .container {
   display: flex;
+
   justify-content: center;
 }
 .textPhoto {
   display: flex;
   flex-direction: row;
+
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+
+  word-wrap: normal;
+
   border-radius: 5px;
   background-color: white;
-  padding: 20px;
-  margin: 20px;
-  word-wrap: normal;
-  width: 400px;
 }
 #Profile {
   width: 220px;
-  height:220px;
-  border-radius:5px;
   min-width: 220px;
+  height:220px;
+
+  border-radius:5px;
 }
