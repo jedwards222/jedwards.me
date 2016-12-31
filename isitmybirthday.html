@@ -15,21 +15,19 @@
     <a href="/">
       <img class="glasses" src="images/dark_glasses.png" alt="Dark Glasses" style="width:90px;height:30px;">
     </a>
-    <div>
+    <div id="birthday">
       <script>
       <!-- Begin
       var now = new Date();
-      if (now.getMonth() === 1) {
-        if (now.getDate() === 10) {
-          document.write("Today is my Birthday!");
-        }
-        else {
-          document.write("Today is not my birthday :(");
-        }
+      var response;
+      if (now.getMonth() === 1 && now.getDate() === 10) {
+        response = "Today is my Birthday!";
       }
       else {
-        document.write("Today is not my birthday :(");
+        response = "Today is not my birthday :(";
       }
+      document.getElementById("birthday").style.font = "20px avenir,serif";
+      document.write(response);
       //  End -->
       </script>
     </div>
