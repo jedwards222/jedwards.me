@@ -19,15 +19,18 @@
       <script>
       <!-- Begin
       var now = new Date();
-      var response;
       if (now.getMonth() === 1 && now.getDate() === 10) {
-        response = "Today is my Birthday!";
+        document.write("Today is my Birthday!");
       }
       else {
-        response = "Today is not my birthday :(";
+        document.write("Today is not my birthday :( ");
+        document.write("Try again tomorrow!");
       }
+      // Styling for the Birthday message
       document.getElementById("birthday").style.font = "20px avenir,serif";
-      document.write(response);
+      document.getElementById("birthday").style.width = "250px";
+      document.getElementById("birthday").style.margin = "20px auto";
+      document.getElementById("birthday").style.color = "navy";
       //  End -->
       </script>
     </div>
