@@ -102,3 +102,9 @@ a:hover {
     font-size: 48px;
   }
 }
+@media only screen and (max-width: 490px) {
+  .textPhoto {
+    flex-direction: column;
+    width: 220px;
+  }
+}

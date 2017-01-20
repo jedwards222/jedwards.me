@@ -7,7 +7,7 @@ if (monthsAway === 0 && daysAway === 0) {
   document.write("<p>Today is my Birthday!</p>");
 }
 else {
-  let message;
+  var message;
   if (monthsAway === 0 && daysAway > 0) {
     message = "Try again tomorrow!";
   } else if (monthsAway > 0 && monthsAway < 6) {
