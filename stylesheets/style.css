@@ -36,11 +36,13 @@ p {
   font-family: Avenir;
 }
 p.birthday {
-  font: 20px;
   width: 250px;
   margin: 0 auto;
   padding: 0 auto;
+
   color: navy;
+
+  font: 20px;
 }
 a, a:visited {
   transition-duration: .2s;
@@ -82,10 +84,10 @@ a:hover {
   background-color: white;
 }
 #birthdayMail {
-  font-size: 20px;
   font-family: avenir;
-  font-style: normal;
+  font-size: 20px;
   font-weight: normal;
+  font-style: normal;
 }
 #birthdayMail:hover {
   transition-duration: .2s;
@@ -100,10 +102,12 @@ a:hover {
   border-radius:5px;
 }
 #linksContainer {
-  width: 300px;
   display: flex;
-  flex-wrap: wrap;
+
+  width: 300px;
   margin: 0 auto;
+
+  flex-wrap: wrap;
 }
 @media only screen and (max-width: 420px) {
   #linksContainer {
@@ -116,6 +120,7 @@ a:hover {
 @media only screen and (max-width: 490px) {
   .textPhoto {
     flex-direction: column;
+
     width: 220px;
   }
 }

@@ -1,3 +1,6 @@
+/* Check the current date, compare it to birthday.
+Print out message depending on when birthday is relative to
+current date. */
 
 var now = new Date();
 var monthsAway = (now.getMonth() - 1);
