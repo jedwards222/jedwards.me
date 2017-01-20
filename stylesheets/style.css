@@ -91,7 +91,6 @@ a:hover {
 #linksContainer {
   width: 300px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
 }
