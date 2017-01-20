@@ -1,8 +1,4 @@
 
-html {
-  height: 100%;
-}
-
 body {
   text-align: center;
 
@@ -34,12 +30,6 @@ ul {
 
   font-family: Georgia;
 }
-li {
-  display: inline;
-
-  margin: 0;
-  padding: 5px;
-}
 p {
   color:navy;
 
@@ -67,7 +57,7 @@ a:hover {
 }
 .fa {
   width: 90px;
-  margin: 3px;
+  margin: 5px;
   padding: 20px 0;
 
   border-radius: 5px;
@@ -97,4 +87,19 @@ a:hover {
   height:220px;
 
   border-radius:5px;
+}
+#linksContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 420px) {
+  #linksContainer {
+    width: 200px;
+  }
+  h1 {
+    font-size: 48px;
+  }
 }
