@@ -23,7 +23,7 @@ h1 {
   padding: 10px;
 }
 .glasses:hover {
-  content: url("images/white_glasses.png");
+  content: url(../images/white_glasses.png);
 }
 ul {
   padding: 0;
