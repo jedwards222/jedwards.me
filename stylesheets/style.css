@@ -45,6 +45,13 @@ p {
 
   font-family: Avenir;
 }
+p.birthday {
+  font: 20px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: navy;
+}
 a, a:visited {
   transition-duration: .2s;
   text-decoration: none;

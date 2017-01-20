@@ -1,16 +1,21 @@
-<!-- Begin
+
 var now = new Date();
-if (now.getMonth() === 1 && now.getDate() === 10) {
-  document.write("Today is my Birthday!");
+var monthsAway = (now.getMonth() - 1);
+var daysAway = (now.getDate() - 10);
+
+if (monthsAway === 0 && daysAway === 0) {
+  document.write("<p>Today is my Birthday!</p>");
 }
 else {
+  let message;
+  if (monthsAway === 0 && daysAway > 0) {
+    message = "Try again tomorrow!";
+  } else if (monthsAway > 0 && monthsAway < 6) {
+    message = "Try again next year!";
+  } else if ( monthsAway >= 6) {
+    message = "Try again in a few months!";
+  } else message = "Try again soon!";
+
   document.write("<p>Today is not my birthday :(</p>");
-  document.write("<p>Try again tomorrow!</p>");
+  document.write(`<p>${message}</p>`);
 }
-// Styling for the Birthday message
-document.getElementById("birthday").style.font = "20px avenir,serif";
-document.getElementById("birthday").style.width = "250px";
-document.getElementById("birthday").style.margin = "0 auto";
-document.getElementById("birthday").style.padding = "0 auto";
-document.getElementById("birthday").style.color = "navy";
-//  End -->
