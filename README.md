@@ -9,10 +9,8 @@ Enjoy!
 
 
 <!-- TODO:
-  1. Add more interesting scripts to the birthday page, suggesting when user should check back for updates
-  2. Remove scripts for styling and instead use CSS file for this
-  3. Split CSS into various files
-  4. Incorporate SASS
-  5. Fix about me page structure on small windows
-  6. Fix Home page structure on small windows
-  7. Think of more fun things to do with javascript -->
+  1. Split CSS into various files
+  2. Incorporate SASS
+  3. Think of more fun things to do with javascript
+  4. Resizing works for small windows but maybe not mobile?
+  5. Update colors at some point - or set up automatic changing? -->
